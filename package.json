@@ -1,0 +1,25 @@
+{
+  "name": "ruby.js.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "npx eslint . --fix",
+    "dev": "cd public && lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubybb/ruby.js.org.git"
+  },
+  "author": "rubybb",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rubybb/ruby.js.org/issues"
+  },
+  "homepage": "https://github.com/rubybb/ruby.js.org#readme",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "lite-server": "^2.5.4"
+  }
+}
